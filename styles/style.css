@@ -1,4 +1,5 @@
 html {
+    background-color: #f2f2ed;
     font-size: 14px;
     font-family:sans-serif;
 }
@@ -11,8 +12,13 @@ p, li {
     letter-spacing: 1px;
 }
 
+.c_headers{
+    text-align: center;
+}
+
 h1 {
     letter-spacing: 3px;
+    text-shadow: 3px 3px 1px slategray;
 }
 
 h3, h2 {
@@ -22,4 +28,14 @@ h3, h2 {
 img {
     width: fit-content;
     border: 5px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+a:link {
+    color: #8494b5;
+}
+
+a:visited {
+    color: #907d96;
 }
