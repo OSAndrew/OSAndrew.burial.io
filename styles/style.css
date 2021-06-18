@@ -12,8 +12,13 @@ p, li {
     letter-spacing: 1px;
 }
 
-.c_headers{
+.c-headers {
     text-align: center;
+}
+
+.standard-size {
+    height: 600px;
+    width: 800px;
 }
 
 h1 {
